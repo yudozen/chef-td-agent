@@ -5,5 +5,5 @@ Description
 * yum_repository "treasure-data"  
 td-agentのyumリポジトリを追加する。
 
-* td-agent 
+* td-agent  
 td-agentをインストールする。
