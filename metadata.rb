@@ -1,5 +1,6 @@
-maintainer       "YOUR_COMPANY_NAME"
-maintainer_email "YOUR_EMAIL"
+name             "td-agent"
+maintainer       "yudozen"
+maintainer_email "yudozen@gmail.com"
 license          "All rights reserved"
 description      "Installs/Configures td-agent"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
