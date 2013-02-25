@@ -5,13 +5,14 @@
 # Copyright 2012, YOUR_COMPANY_NAME
 #
 # All rights reserved - Do Not Redistribute
-yum_repository "treasure-data" do
-	url "http://packages.treasure-data.com/redhat/$basearch"
-	action :add
+
+template "/etc/yum.repos.d/td.repo" do
+	source "td.erb"
+	mode 0644
+	owner "root"
+	owner "root"
 end
 
 package "td-agent" do
 	action :install
 end
-
-
