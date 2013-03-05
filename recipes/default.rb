@@ -16,3 +16,7 @@ end
 package "td-agent" do
 	action :install
 end
+
+service "td-agent" do
+	action :restart
+end
